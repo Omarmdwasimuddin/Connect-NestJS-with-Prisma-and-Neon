@@ -21,13 +21,10 @@ DATABASE_URL=''
 
 #### Prisma install
 ```bash
-npm install prisma --save-dev
-```
-```bash
-npm install @prisma/client
-```
-```bash
 npm install -D prisma@7.10.0
+```
+```bash
+npm install @prisma/client@7.10.0
 ```
 ```bash
 npx prisma init

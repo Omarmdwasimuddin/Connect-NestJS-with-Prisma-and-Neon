@@ -53,3 +53,39 @@ New-Item prisma/schema.prisma
 DATABASE_URL=''
 ```
 ---
+
+
+#### `schema.prisma`
+```bash
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+
+model Book {
+  id String @id @default(uuid())
+  title String
+  author String
+  createdAt DateTime @default(now())
+}
+```
+---
+
+
+#### ``
+```bash
+
+```
+---
+
+
+#### ``
+```bash
+
+```
+---

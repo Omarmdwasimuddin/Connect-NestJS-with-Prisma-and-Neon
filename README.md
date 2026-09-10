@@ -43,3 +43,10 @@ mkdir prisma
 New-Item prisma/schema.prisma
 ```
 ---
+
+#### `.env`
+>#### example.env file theke DATABASE_URL copy kore paste kore daw.
+```bash
+DATABASE_URL=''
+```
+---

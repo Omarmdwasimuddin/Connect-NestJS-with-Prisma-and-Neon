@@ -9,10 +9,12 @@ cd my-nest
 ```
 ---
 
+>#### Neon e project create koro and then database connect koro-
+<img width="1597" height="762" alt="image" src="https://github.com/user-attachments/assets/bf2fd0be-b6c5-4f60-9b5b-15ef35768385" />
 
 
 #### `example.env`
 ```bash
-DATABASE_URL='postgresql://neondb_owner:npg_IfF6VZgPiUp1@ep-old-brook-axb5q3gl-pooler.c-4.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
+DATABASE_URL=''
 ```
 ---

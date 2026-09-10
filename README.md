@@ -30,3 +30,16 @@ npm install @prisma/client
 npx prisma init
 ```
 ---
+
+
+>#### Note: jodi prisma/schema.prisma and .env file create na hoi tahole menualy create koro
+```bash
+New-Item .env
+```
+```bash
+mkdir prisma
+```
+```bash
+New-Item prisma/schema.prisma
+```
+---

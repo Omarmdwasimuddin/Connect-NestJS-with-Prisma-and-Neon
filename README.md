@@ -1,4 +1,4 @@
-## Connect NestJ with Prisma and Neon
+## Connect NestJ with Prisma and Neon (Prisma v7.10.0)
 
 #### Create Project
 ```bash

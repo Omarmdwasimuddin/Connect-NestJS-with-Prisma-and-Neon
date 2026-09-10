@@ -27,6 +27,9 @@ npm install prisma --save-dev
 npm install @prisma/client
 ```
 ```bash
+npm install -D prisma@7.10.0
+```
+```bash
 npx prisma init
 ```
 ---

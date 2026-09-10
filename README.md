@@ -77,9 +77,12 @@ model Book {
 ---
 
 
-#### ``
+#### Create and run your migration & Generate Prisma Client
 ```bash
-
+npx prisma migrate dev --name init
+```
+```bash
+npx prisma generate
 ```
 ---
 

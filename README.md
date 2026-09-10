@@ -18,3 +18,15 @@ cd my-nest
 DATABASE_URL=''
 ```
 ---
+
+#### Prisma install
+```bash
+npm install prisma --save-dev
+```
+```bash
+npm install @prisma/client
+```
+```bash
+npx prisma init
+```
+---

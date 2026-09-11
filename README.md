@@ -23,7 +23,7 @@ import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
-  imports: [ ConfigModule.forRoot() ],
+  imports: [ ConfigModule.forRoot({ isGlobal: true }) ],
   controllers: [AppController],
   providers: [AppService],
 })

@@ -26,6 +26,11 @@ npm install -D prisma@7.10.0
 ```bash
 npm install @prisma/client@7.10.0
 ```
+>### PostgreSQL Driver Adapter install
+>#### Prisma 7 requires a driver adapter for direct PostgreSQL database connections.
+```bash
+npm install @prisma/adapter-pg pg
+```
 ```bash
 npx prisma init
 ```

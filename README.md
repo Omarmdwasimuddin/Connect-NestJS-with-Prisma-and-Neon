@@ -14,6 +14,22 @@ cd my-nest
 npm i @nestjs/config
 ```
 
+### `app.module.ts`
+```bash
+import { Module } from '@nestjs/common';
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
+import { ConfigModule } from '@nestjs/config';
+import { MongooseModule } from '@nestjs/mongoose';
+
+@Module({
+  imports: [ ConfigModule.forRoot() ],
+  controllers: [AppController],
+  providers: [AppService],
+})
+export class AppModule {}
+```
+
 >#### Neon e project create koro and then database connect koro and example.env te paste koro.
 <img width="1597" height="762" alt="image" src="https://github.com/user-attachments/assets/bf2fd0be-b6c5-4f60-9b5b-15ef35768385" />
 
